@@ -1,50 +1,42 @@
-# -Data-Science-Projects-Data-Science-Projects
-# 📈 Forecasting de Volatilidade com Modelos GARCH
+# 🧠 Data Science Portfolio
 
-Este projeto tem como objetivo analisar os retornos e prever a volatilidade de ações de grandes empresas de tecnologia, utilizando modelos econométricos — com foco especial em **ARCH** e **GARCH**. A análise é feita com dados históricos obtidos diretamente da API do Yahoo Finance (`yfinance`).
+Welcome to my Data Science project portfolio! This repository gathers a collection of practical projects where I apply statistical analysis, machine learning, and data engineering concepts to solve real-world problems.
 
----
-
-## 🧠 Objetivos
-
-- Calcular retornos diários das ações de empresas como AAPL, MSFT, GOOGL, entre outras.
-- Verificar a presença de heterocedasticidade nos dados financeiros.
-- Ajustar modelos GARCH para prever a volatilidade dos retornos.
-- Comparar previsões com a volatilidade realizada.
+Each project demonstrates a specific area of expertise, from supervised and unsupervised learning to time series forecasting and business intelligence.
 
 ---
 
-## 🛠️ Tecnologias e Bibliotecas
+## 📁 Project Highlights
 
-- Python
-- Pandas, NumPy
-- Matplotlib, Seaborn
-- `yfinance`
-- `arch` (para modelos GARCH)
-- Statsmodels
+### 📈 [Forecasting Stock Volatility with GARCH](./analise_retorno_volatilidade_reestruturado.ipynb)
+Modeling and forecasting daily stock return volatility using GARCH models on major tech stocks.
 
----
+### 🔍 Customer Segmentation (Unsupervised Learning)
+Clustering customers using K-Means based on purchasing behavior to identify patterns and build profiles.
 
-## 📊 Estrutura do Projeto
+### 🧮 Churn Prediction (Supervised Learning)
+Applying logistic regression and random forests to predict which customers are likely to cancel a service.
 
-1. **Coleta de dados** com yfinance
-2. **Cálculo de retornos percentuais**
-3. **Análise exploratória**
-   - Gráficos de preços e retornos
-   - ACF/PACF
-   - Teste de heterocedasticidade
-4. **Modelagem**
-   - Ajuste de modelos ARCH e GARCH
-   - Previsão de volatilidade
-5. **Conclusão**
-   - Avaliação da performance do modelo
-   - Aplicações em finanças e gestão de risco
+### 🌎 IBGE Data Analysis
+Exploratory analysis of Brazilian population and region-level statistics using public data sources.
+
+### ⚽ FIFA Player Clustering
+Using unsupervised learning to group FIFA players based on performance metrics and physical attributes.
 
 ---
 
-## 📎 Como Executar
+## 🛠️ Tools & Technologies
 
-1. Clone este repositório.
-2. Instale as dependências:
-   ```bash
-   pip install yfinance arch pandas matplotlib seaborn statsmodels
+- **Languages:** Python, SQL  
+- **Libraries:** pandas, scikit-learn, matplotlib, seaborn, statsmodels, yfinance, arch  
+- **Workflow:** Jupyter Notebooks, Git, DBT  
+- **Concepts:** Data wrangling, EDA, Supervised/Unsupervised ML, Forecasting, BI  
+
+---
+
+## 📫 About Me
+
+I’m Leonardo Campos, a Business Intelligence Analyst transitioning to Data Science.  
+Currently pursuing a postgraduate degree in Data Science with focus on machine learning, unsupervised learning, and forecasting.  
+Feel free to connect on [LinkedIn](https://www.linkedin.com/in/leonardocarcampos/).
+
